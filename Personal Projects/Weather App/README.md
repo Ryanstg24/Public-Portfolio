@@ -25,3 +25,4 @@ Problem Solving and Overcoming Challenges
 During the development of this project, a challenge was faced with the API data not being displayed despite successful network traffic. After thorough investigation, it was discovered that the issue originated from a typo in the App.js file. The currentWeatherFetch function was misspelled, resulting in the data not populating as intended. By identifying and rectifying this error, the project was able to display the expected API data correctly.
 
 This problem-solving example showcases the ability to troubleshoot issues, identify bugs, and implement appropriate solutions. In a professional setting, these problem-solving skills are valuable for maintaining and debugging complex codebases.
+

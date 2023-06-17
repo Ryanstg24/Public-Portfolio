@@ -7,11 +7,11 @@
 <h2>Tools Used</h2>
 
 <ul>
-  <li><strong>VS Code</strong>: The project was developed using Visual Studio Code, a popular and powerful code editor. It provides a rich set of features, including syntax highlighting, debugging capabilities, and extensions, which enhance productivity and streamline the development process.</li>
-  <li><strong>JavaScript</strong>: The project is primarily written in JavaScript, a widely-used programming language for building web applications. JavaScript enables dynamic and interactive features on web pages, making it an essential tool for front-end development.</li>
-  <li><strong>React</strong>: The project utilizes the React library, a popular JavaScript framework for building user interfaces. React allows for efficient and reusable component-based development, making it easier to manage complex UI structures and ensure a smooth user experience.</li>
-  <li><strong>OpenWeather API</strong>: The OpenWeather API is integrated into the application to retrieve weather data. It provides accurate and up-to-date weather information, including temperature, humidity, wind speed, and more. By leveraging this API, the application can display real-time weather conditions for a given location.</li>
-  <li><strong>GeoDB Cities API</strong>: The GeoDB Cities API is used to fetch city information, such as city names, geographical coordinates, and other relevant data. This API enhances the user experience by providing accurate city suggestions and ensuring accurate weather data retrieval.</li>
+  <li><strong>VS Code</strong></li>
+  <li><strong>JavaScript</strong></li>
+  <li><strong>React</strong></li>
+  <li><strong>OpenWeather API</strong></li>
+  <li><strong>GeoDB Cities API</strong></li>
 </ul>
 
 <h2>Benefits in a Professional Setting</h2>

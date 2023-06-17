@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/ryanstgeorge" target="_blank" rel="noreferrer"><img src="insertimagehere" alt="ryans banner"></a>
+  <a href="https://www.linkedin.com/in/ryanstgeorge" target="_blank" rel="noreferrer"><img src="https://github.com/Ryanstg24/Public-Portfolio/blob/main/images/Ryan_St_George.png" alt="ryans banner"></a>
 </p>
 
 <h3 align="center">

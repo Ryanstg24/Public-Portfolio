@@ -1,17 +1,18 @@
-<h2>Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?</h2>
+**Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?**
+
 The app was designed to allow users to create an account, log in, and track their daily weight. It aimed to help individuals monitor their weight progress and would notify them via SMS once they reached their weight goal. Whether they wanted to gain or lose weight. This addressed the need for a consistent, user-friendly tool for weight management and progress monitoring while using a database to store user credentials and information for each account.
 
-<h2>What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?</h2>
+**What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?**
 The app had a registration and login screen, and a dashboard for weight input and progress. The UI was designed to be intuitive and user-friendly, with a simple layout, clear prompts, and easy navigation. The designs kept users in mind by minimizing the number of steps to perform essential tasks. The simplicity and clarity were key to the users success.
 
-<h2>How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?</h2>
+**How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?**
 I adopted an incremental development approach, starting with the core features like account creation and weight tracking. But I initially laid out the design of the application before implementing this logic. This can be seen in file "WeightTracker_RyanStGeorge" which had just the design and limited logic. External integrations, such as SMS notifications, were added later. Emphasizing modular coding, and ease for scalability which can be applied in future application upgrades for simplicity without entirely remaking the application.
 
-<h2>How did you test to ensure your code was functional? Why is this process important and what did it reveal?</h2>
+**How did you test to ensure your code was functional? Why is this process important and what did it reveal?**
 Testing the application manually after implementing each process was used. Something like a more in depth unit testing would be much better for testing more individual components while saving time. Overall having integration testing to ensure overall app cohesiveness. This process is vital as it identifies bugs, ensures quality, and guarantees that features work as intended. Testing revealed areas that needed optimization and having more automated testing in the future with the scalability would be essential to not overlook bugs.
 
-<h2>Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?</h2>
+**Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?**
 Integrating the SMS notification feature posed challenges, particularly around ensuring delivery to the user which was manually tested in this instance. Quick learning was used to ensure I understood how to complete this task to start. Innovating was required ensuring it functioned seamlessly without compromising other app functionalities.
 
-<h2>In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?</h2>
+**In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?**
 The secure authentication process, which allowed users to create accounts and log in, stood out. It demonstrated a keen understanding of data security and user experience, ensuring that personal information was safeguarded while maintaining ease of use. This was something I initially thought was much more complicated than it was.

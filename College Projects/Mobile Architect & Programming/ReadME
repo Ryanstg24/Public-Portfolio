@@ -1,4 +1,4 @@
-**Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?**
+<b>Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?</b>
 The app was designed to allow users to create an account, log in, and track their daily weight. It aimed to help individuals monitor their weight progress and would notify them via SMS once they reached their weight goal. Whether they wanted to gain or lose weight. This addressed the need for a consistent, user-friendly tool for weight management and progress monitoring while using a database to store user credentials and information for each account.
 
 **What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?**

@@ -1,1 +1,24 @@
+Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 
+The work in this project gave me a partially completed pirate intelligent agent. I was responsible for applying key concepts in reinforcement learning and neural networks
+in this real world problem. The goal was for the game to be completed and won for finding a route to the "treausre". It was effective when the game solves the route in an
+effective and efficient manner. Using my knowledge throughout this class of neural networks I was able to effectively apply this concept and create a successful game. This
+can be reflected for deeper real-world problems in the future with this basic understanding.
+
+**Connect your learning from throughout this course to the larger field of computer science:**
+
+***What do computer scientists do and why does it matter?***
+
+Computer scientists design, develop, and analyze algorithms and data structures to solve complex problems, and their work forms the backbone of modern technology. 
+By learning current/emerging trends in this course, especially the advancements in AI, we gain insights into the rapidly evolving landscape of 
+computer science and its impact on various sectors.
+
+***How do I approach a problem as a computer scientist?***
+
+Approaching a problem I try to understand the problem/task at hand first. Then breaking down the problem/task into much more manageable tasks. Using logical reasoning,
+algorithmic thinking, and understanding the tools at hand to solve the problem. All while optimizing and solving the problem efficiently.
+
+***What are my ethical responsibilities to the end user and the organization?***
+
+In anything I work on and as a computer scientist you are responsible for the safety, privacy, and fairness in the software and systems to the end user. All while holding the
+integrity and objectives of the organization, while being transparent about potential risks and biases, ensuring that technology is used responsibly and does not cause harm.

@@ -1,0 +1,21 @@
+Left Center Right (LCR) Game Rules
+
+- LCR is a multiplayer dice game for three or more players.
+- The goal is to win all of the chips.
+
+The Dice:
+- Each turn involves rolling three dice.
+- Each die has the letters L, C, and R, and dots on the remaining three sides.
+- 'L' means passing a chip to the left.
+- 'R' means passing a chip to the right.
+- 'C' means placing a chip in the center pot, out of play.
+- Dots are neutral and require no action.
+
+The Chips:
+- Each player starts with three chips.
+- Players roll as many dice as they have chips (up to three).
+- Players without chips are still in the game but do not roll.
+
+Winning the Game:
+- The last player with chips wins the game.
+Enjoy!

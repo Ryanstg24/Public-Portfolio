@@ -1,1 +1,1 @@
-
+Throughout this course I have completed multiple C++ fundamentals and assignments. I decided to upload my final project as a way to combine these altogether. From reading from a file, secure coding practices, and overall C++ fundamentals. Feel free to ask for more.

@@ -1,0 +1,132 @@
+[1mQuestionableCode.cpp:4:0: [31minformation:[39m Include file: <cassert> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+#include <cassert>
+^
+[1mQuestionableCode.cpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+#include <iostream>
+^
+[1mQuestionableCode.cpp:6:0: [31minformation:[39m Include file: <numeric> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+#include <numeric>
+^
+[1mQuestionableCode.cpp:7:0: [31minformation:[39m Include file: <set> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+#include <set>
+^
+[1mQuestionableCode.cpp:8:0: [31minformation:[39m Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+#include <vector>
+^
+[1mQuestionableCode.cpp:130:14: [31mwarning:[39m Assert statement modifies 'z'. [assignmentInAssert][0m
+    assert(z = 2);
+             ^
+[1mQuestionableCode.cpp:132:12: [31mwarning:[39m Assert statement calls a function which may have desired side effects: 'my_function'. [assertWithSideEffect][0m
+    assert(my_function() == 3);
+           ^
+[1mQuestionableCode.cpp:112:5: [31mwarning:[39m Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg][0m
+    tok = tok->next();
+    ^
+[1mQuestionableCode.cpp:59:5: [31merror:[39m Address of local auto-variable assigned to a function parameter. [autoVariables][0m
+    *a = &b;
+    ^
+[1mQuestionableCode.cpp:132:26: [31mwarning:[39m Comparison of a boolean expression with an integer other than 0 or 1. [compareBoolExpressionWithInt][0m
+    assert(my_function() == 3);
+                         ^
+[1mQuestionableCode.cpp:100:5: [31mstyle:[39m Non-boolean value returned from function returning bool [returnNonBoolInBooleanFunction][0m
+    return a;
+    ^
+[1mQuestionableCode.cpp:66:12: [31mwarning:[39m Either the condition 'count==1000' is redundant or the array 'buf[10]' is accessed at index 1000, which is out of bounds. [arrayIndexOutOfBoundsCond][0m
+        buf[count] = 0; // <- ERROR
+           ^
+[1mQuestionableCode.cpp:65:15: [2mnote:[0m Assuming that condition 'count==1000' is not redundant
+    if (count == 1000)
+              ^
+[1mQuestionableCode.cpp:66:12: [2mnote:[0m Array index out of bounds
+        buf[count] = 0; // <- ERROR
+           ^
+[1mQuestionableCode.cpp:42:5: [31mwarning:[39m Member variable 'A::x' is not initialized in the copy constructor. [uninitMemberVarPrivate][0m
+    A(const A &other) {}
+    ^
+[1mQuestionableCode.cpp:52:9: [31merror:[39m Exception thrown in function declared not to throw exceptions. [throwInNoexceptFunction][0m
+        throw "Ha! I threw anyway!";
+        ^
+[1mQuestionableCode.cpp:112:11: [31mwarning:[39m Either the condition 'tok' is redundant or there is possible null pointer dereference: tok. [nullPointerRedundantCheck][0m
+    tok = tok->next();
+          ^
+[1mQuestionableCode.cpp:110:12: [2mnote:[0m Assuming that condition 'tok' is not redundant
+    while (tok)
+           ^
+[1mQuestionableCode.cpp:112:11: [2mnote:[0m Null pointer dereference
+    tok = tok->next();
+          ^
+[1mQuestionableCode.cpp:64:9: [31mstyle:[39m The scope of the variable 'buf' can be reduced. [variableScope][0m
+    int buf[10];
+        ^
+[1mQuestionableCode.cpp:136:13: [31mstyle:[39m Local variable 'x' shadows outer variable [shadowVariable][0m
+        int x = 5;
+            ^
+[1mQuestionableCode.cpp:120:9: [2mnote:[0m Shadowed declaration
+    int x = 0;
+        ^
+[1mQuestionableCode.cpp:136:13: [2mnote:[0m Shadow variable
+        int x = 5;
+            ^
+[1mQuestionableCode.cpp:137:13: [31mstyle:[39m Local variable 'y' shadows outer variable [shadowVariable][0m
+        int y = 5;
+            ^
+[1mQuestionableCode.cpp:121:9: [2mnote:[0m Shadowed declaration
+    int y = 0;
+        ^
+[1mQuestionableCode.cpp:137:13: [2mnote:[0m Shadow variable
+        int y = 5;
+            ^
+[1mQuestionableCode.cpp:138:13: [31mstyle:[39m Local variable 'z' shadows outer variable [shadowVariable][0m
+        int z = 5;
+            ^
+[1mQuestionableCode.cpp:122:9: [2mnote:[0m Shadowed declaration
+    int z = 0;
+        ^
+[1mQuestionableCode.cpp:138:13: [2mnote:[0m Shadow variable
+        int z = 5;
+            ^
+[1mQuestionableCode.cpp:87:32: [31m[35merror: inconclusive:[39m Using iterator to local container 'items' that may be invalid. [invalidContainer][0m
+    for (iter = items.begin(); iter != items.end(); ++iter)
+                               ^
+[1mQuestionableCode.cpp:87:28: [2mnote:[0m Iterator to container is created here.
+    for (iter = items.begin(); iter != items.end(); ++iter)
+                           ^
+[1mQuestionableCode.cpp:89:19: [2mnote:[0m Assuming condition is true.
+        if (*iter == 2)
+                  ^
+[1mQuestionableCode.cpp:89:19: [2mnote:[0m Assuming condition is true.
+        if (*iter == 2)
+                  ^
+[1mQuestionableCode.cpp:87:37: [2mnote:[0m Assuming condition is true.
+    for (iter = items.begin(); iter != items.end(); ++iter)
+                                    ^
+[1mQuestionableCode.cpp:91:19: [2mnote:[0m After calling 'erase', iterators or references to the container's data may be invalid .
+            items.erase(iter);
+                  ^
+[1mQuestionableCode.cpp:82:22: [2mnote:[0m Variable created here.
+    std::vector<int> items;
+                     ^
+[1mQuestionableCode.cpp:87:32: [2mnote:[0m Using iterator to local container 'items' that may be invalid.
+    for (iter = items.begin(); iter != items.end(); ++iter)
+                               ^
+[1mQuestionableCode.cpp:41:9: [31mstyle:[39m class member 'A::x' is never used. [unusedStructMember][0m
+    int x;
+        ^
+[1mQuestionableCode.cpp:66:20: [31mstyle:[39m Variable 'buf[count]' is assigned a value that is never used. [unreadVariable][0m
+        buf[count] = 0; // <- ERROR
+                   ^
+[1mQuestionableCode.cpp:112:9: [31mstyle:[39m Variable 'tok' is assigned a value that is never used. [unreadVariable][0m
+    tok = tok->next();
+        ^
+[1mQuestionableCode.cpp:120:9: [31mstyle:[39m Variable 'x' is assigned a value that is never used. [unreadVariable][0m
+    int x = 0;
+        ^
+[1mQuestionableCode.cpp:121:9: [31mstyle:[39m Variable 'y' is assigned a value that is never used. [unreadVariable][0m
+    int y = 0;
+        ^
+[1mQuestionableCode.cpp:50:0: [31mstyle:[39m The function 'DontThrow' is never used. [unusedFunction][0m
+    void DontThrow() noexcept
+^
+[1mQuestionableCode.cpp:69:0: [31mstyle:[39m The function 'do_something_useless' is never used. [unusedFunction][0m
+void do_something_useless()
+^

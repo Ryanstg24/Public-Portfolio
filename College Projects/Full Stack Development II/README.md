@@ -1,1 +1,1 @@
-
+This course offers a great use and understanding of AWS Cloud Computing. From the use of API's and Lambda functions, S3 buckets, and pulling them altogether to migrate a web application into the cloud. All while ensuring best security and coding practices are used. Such as Defense in Depth, Least Privileged, MFA, and Zero Trust.
